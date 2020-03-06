@@ -1,0 +1,12 @@
+{
+	"name": "Plaque",
+	"description": "A Youtube Plaque. Can also be used as walls, pretty tough tho.",
+	"type": "Wall",
+	"health": 5000,
+	"size": 1,
+	"requirements": [
+		{ "item": "copper", "amount": 1 }
+	],
+	"category": "defense",
+	"research": "plaque"
+}

@@ -1,0 +1,34 @@
+{
+    "type": "itemTurret",
+    "name": "ez",
+    "description": "Shoots overpowered Youtube Plaques at enemies.",
+    "targetAir": true,
+    "targetGround": true,
+    "health": 1000000,
+    "size": 2,
+    "shootType": "BasicBulletType",
+    "inaccuracy": 1,
+    "reload": 15,
+    "shootCone": 40,
+    "rotateSpeed": 100,
+    "shots": 1,
+    "range": 2000,
+    "ammo": {
+        "copper": {
+	    "type": "BasicBulletType"
+            "speed": 15,
+            "damage": 500,
+            "bulletWidth": 5,
+            "bulletHeight": 5,
+            "shootEffect": "nuclearShockwave",
+            "smokeEffect": "shootBigSmoke",
+            "ammoMultiplier": 15,
+	    "bulletSprite": "youtube-cannon-plaque",
+        }
+    },
+    "requirements": [
+        { "item": "copper", "amount": 100 },
+    ],
+    "category": "turret"
+    "shootSound": "flak"
+}
